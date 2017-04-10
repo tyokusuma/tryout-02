@@ -2,7 +2,10 @@ var express = require('express');
 var app = express();
 var cors = require('cors');
 
-var data = [{id: '1', text: 'gjhsdgjhsdf'}, {id: '2', text: 'world'}];
+var data = [
+  {id: '1', text: 'To Do list from server 1'},
+  {id: '2', text: 'TodoList from server 2'},
+];
 
 app.use(cors());
 

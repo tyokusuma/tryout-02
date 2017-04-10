@@ -17,9 +17,14 @@ export default class App extends Component {
         <h3>TODO LIST</h3>
         <TodoList items={this.state.items} />
         <form onSubmit={this.handleSubmit}>
-          <input onChange={this.handleChange} value={this.state.text} />
-          <button>{'Add TODO ' + (this.state.items.length + 1)}</button>
-
+          <input
+            className="input"
+            onChange={this.handleChange}
+            value={this.state.text}
+          />
+          <button className="inputSubmit">
+            {'Add TODO ' + (this.state.items.length + 1)}
+          </button>
         </form>
       </div>
     );
