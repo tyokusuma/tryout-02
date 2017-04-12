@@ -1,4 +1,4 @@
-package com.nativemodule;
+package com.nativemodulespeach;
 
 import android.app.Application;
 

@@ -4,10 +4,15 @@
  * @flow
  */
 
-import React, {Component} from 'react';
-import {AppRegistry, StyleSheet, Text, View, NativeModule} from 'react-native';
+import React, { Component } from 'react';
+import {
+  AppRegistry,
+  StyleSheet,
+  Text,
+  View
+} from 'react-native';
 
-export default class nativemodule extends Component {
+export default class nativemodulespeach extends Component {
   render() {
     return (
       <View style={styles.container}>
@@ -45,4 +50,4 @@ const styles = StyleSheet.create({
   },
 });
 
-AppRegistry.registerComponent('nativemodule', () => nativemodule);
+AppRegistry.registerComponent('nativemodulespeach', () => nativemodulespeach);
