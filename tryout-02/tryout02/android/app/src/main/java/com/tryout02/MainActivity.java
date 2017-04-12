@@ -1,4 +1,4 @@
-package com.todolistnative;
+package com.tryout02;
 
 import com.facebook.react.ReactActivity;
 
@@ -10,6 +10,6 @@ public class MainActivity extends ReactActivity {
      */
     @Override
     protected String getMainComponentName() {
-        return "nativemodule";
+        return "tryout02";
     }
 }

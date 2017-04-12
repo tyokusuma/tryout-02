@@ -1,4 +1,4 @@
-package com.todolistnative;
+package com.nativemodule;
 
 import com.facebook.react.ReactActivity;
 
