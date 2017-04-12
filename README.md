@@ -100,4 +100,6 @@ app.listen(3001, function() {
 
 
 #NATIVE MODULE
+![](https://github.com/tyokusuma/tryout-02/blob/master/nativemodulespeach/Screenshot_1492012573.png)
+![](https://github.com/tyokusuma/tryout-02/blob/master/nativemodulespeach/Screenshot_1492012605.png)
 
