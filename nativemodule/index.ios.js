@@ -4,13 +4,8 @@
  * @flow
  */
 
-import React, { Component } from 'react';
-import {
-  AppRegistry,
-  StyleSheet,
-  Text,
-  View
-} from 'react-native';
+import React, {Component} from 'react';
+import {AppRegistry, StyleSheet, Text, View, NativeModule} from 'react-native';
 
 export default class nativemodule extends Component {
   render() {
